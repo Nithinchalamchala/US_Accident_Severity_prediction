@@ -15,9 +15,9 @@ st.write("Predict whether an accident will be **Low** or **High** severity based
 # ----------------------------------------------------
 # 2️⃣ Load Model, Scaler, and Column Info
 #    (Using the *exact* filenames from your notebook)
-MODEL_FILE = "accidents.pkl"
-SCALER_FILE = "scaler.pkl"
-COLS_FILE_JSON = "model_columns.json"
+MODEL_FILE = "../models/accidents.pkl"
+SCALER_FILE = "../models/scaler.pkl"
+COLS_FILE_JSON = "../models/model_columns.json"
 
 model = scaler = model_columns = None
 

@@ -30,9 +30,9 @@ with tab1:
     st.write("Use this tool to predict the severity of an accident based on road and weather conditions.")
     
     # --- Load Model, Scaler, and Column Info ---
-    MODEL_FILE = "accidents.pkl"
-    SCALER_FILE = "scaler.pkl"
-    COLS_FILE_JSON = "model_columns.json"
+    MODEL_FILE = "../models/accidents.pkl"
+    SCALER_FILE = "../models/scaler.pkl"
+    COLS_FILE_JSON = "../models/model_columns.json"
 
     model = scaler = model_columns = None
 
